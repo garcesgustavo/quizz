@@ -25,6 +25,7 @@ export class Quiz {
   }
 
   adivina(respuesta) {
+    console.log(respuesta);
     if (this.getPreguntaIndex().respuestaCorrecta(respuesta)) {
       this.puntaje++;
     }
